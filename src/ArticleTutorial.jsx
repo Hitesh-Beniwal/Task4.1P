@@ -1,22 +1,23 @@
-import { ArticleReact } from './Article';  // Adjust the path as necessary
+import { ArticleReact } from './Article';  
 import Tutorials from './Tutorials';
 
 
+function SeeAllButton({ label }) {
+  return <button>{label}</button>;
+}
 
 function FeaturedArticlesAndTutorials() {
-  
-
   return (
-    <div className="main-body">
+    <div className="FeaturedArticlesAndTutorials">
       <h2>Featured Articles</h2>
-        <ArticleReact />
-      <button>See all articles</button>
+      <ArticleReact />
+      <SeeAllButton label="See all articles" />  { }
 
       <h2>Featured Tutorials</h2>
-      <div className="tutorial-container">
+      <div className="tutorial">
         <Tutorials />
       </div>
-      <button>See all tutorials</button>
+      <SeeAllButton label="See all tutorials" />  { }
     </div>
   );
 }
