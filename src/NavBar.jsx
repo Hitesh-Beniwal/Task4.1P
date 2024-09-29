@@ -12,7 +12,7 @@ function NavBar() {
           </div>
         </div>
       </header>
-        <div className="image-container">
+        <div className="imagedisplay">
           <img src="./images/header11.webp" alt="Random" />
         </div>
     </div>
