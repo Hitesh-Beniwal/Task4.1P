@@ -1,6 +1,6 @@
 function Footer(){
     return(
-        <div className="footer-bg">
+        <div className="fbackground">
         <footer>
             <div>
                 <h2>Explore</h2>
@@ -21,7 +21,7 @@ function Footer(){
             </div>
             <div>
                 <h2>Stay connected</h2>
-                <ul className="footer-img">
+                <ul className="fimage">
                     <li><img src="./images/insta.png" alt="Instagram Logo" /></li>
                     <li><img src="./images/face.png" alt="Facebook Logo" /></li>
                     <li><img src="./images/twitter.jpeg" alt="Twitter Logo" /></li>
@@ -29,7 +29,7 @@ function Footer(){
             </div>
         </footer>
         <h2>DEV@Deakin 2022</h2>
-        <div className="footer-bg-last"> 
+        <div className="fbottom"> 
             <p>Privacy Policy</p>
             <p>Terms</p>
             <p>Code of Conduct</p>
